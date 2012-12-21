@@ -1,0 +1,8 @@
+#ifndef _NUMERIC_CONSTANTS_H_
+#define _NUMERIC_CONSTANTS_H_
+
+enum {OK, ERROR};
+
+const static double LOG_OF_2_IN_BASE_10 = 0.30102999566398119521373889472449;
+
+#endif /* _NUMERIC_CONSTANTS_H_ */
