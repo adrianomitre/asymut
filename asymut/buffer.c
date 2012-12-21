@@ -44,8 +44,6 @@ signed char init_buffer(Buffer **buffer, Audio_Stream* stream, FFT_properties *f
 			num_of_mov_median_elements++;
 		}
 	}
-	
-	num_of_mov_median_elements = 1; /* TEMPORÁRIO, só até o esquema de mediana sair do Asymut */
 
     buf->threshold_to_unpredictability_offset = num_of_mov_median_elements/2;
 
