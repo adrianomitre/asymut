@@ -1,7 +1,7 @@
 CCFLAGS = -ansi -O3
 LIBS = -lm
-SRC_FILES = aux_fun.c filters.c main.c
-DEST = peak_filter
+SRC_FILES = aux_fun.c notes.c main.c
+DEST = pitch2note
 
 default : $(DEST)
 $(DEST): $(SRC_FILES)
