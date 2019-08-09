@@ -122,8 +122,7 @@ Parameter: `--highest_note <n>`
 Description: Pitch Range Highest Note  
 Associate variable: `unsigned char PITCH_RANGE_HIGHEST_NOTE`  
 
-Parameter: `--f0_estimation_method <p> [p] [r] ... [r]`  
-Abbreviation: `-m`  
+Parameter: `--f0_method <p> [p] [r] ... [r]`  
 Description: F0 Estimation Method  
 Associate variable: `F0_Estimation_Method ESTIMATION_METHOD`  
 Possible values: `(max_index, hps, hsc, bw_hsc, fft_fft) [mag|pow|lp|wd], klapuri`  
