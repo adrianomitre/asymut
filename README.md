@@ -152,7 +152,7 @@ Description: Prints
 Possible values: `samples, apod_win_time, apod_win_freq, <spec|loc_max> <ph|uph|mag|pow|lp|wd|pn [  doubled_linebreaks]>, unpred,  threshold, bands_response, bands_response_summary, bands_sum, onset, f0_estimate`
 
 Parameter: `--ruminate <p>`  
-Description: Ruminates (process but don’t print anything, essencialy for benchmarking)  
+Description: Ruminates (process but don’t print anything, essentially for benchmarking)  
 Possible values: `spec, unpred, f0_estimate`  
 
 ## References
